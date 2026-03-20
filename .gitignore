@@ -8,8 +8,8 @@
 # testing
 /coverage
 
-# Nuxt build
-.nuxt
+# build outputs
+.next
 /out/
 
 # production
@@ -32,9 +32,3 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
-
-*.lock
-
-
-# Nuxt generate
-dist

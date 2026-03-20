@@ -1,28 +1,33 @@
 {
-  "name": "aguns",
+  "name": "customer-order-dashboard",
   "version": "1.0.0",
-  "description": "Nuxt.js + Vuetify.js project",
-  "author": "Guimaraes Mahota <guimaraesmahota@gmail.com>",
   "private": true,
-  "type": "module",
   "scripts": {
-    "dev": "nuxi dev",
-    "build": "nuxi build",
-    "generate": "nuxi generate",
-    "start": "nuxi preview"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
   },
   "dependencies": {
-    "@mdi/font": "^7.4.47",
-    "@nuxtjs/style-resources": "^1.2.2",
-    "axios": "^1.8.2",
-    "moment": "^2.30.0",
-    "nuxt": "^3.17.6",
-    "vuex": "^4.1.0"
+    "@radix-ui/react-label": "^2.1.2",
+    "@radix-ui/react-slot": "^1.1.2",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.511.0",
+    "next": "^15.3.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwind-merge": "^3.3.0"
   },
   "devDependencies": {
-    "stylus": "^0.63.0",
-    "stylus-loader": "^8.1.0",
-    "vite-plugin-vuetify": "^2.0.3",
-    "vuetify": "^3.6.4"
+    "@eslint/eslintrc": "^3.3.1",
+    "@tailwindcss/postcss": "^4.1.8",
+    "@types/node": "^22.15.18",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.7",
+    "eslint": "^9.25.0",
+    "eslint-config-next": "^15.3.1",
+    "tailwindcss": "^4.1.8",
+    "typescript": "^5.8.3"
   }
 }
